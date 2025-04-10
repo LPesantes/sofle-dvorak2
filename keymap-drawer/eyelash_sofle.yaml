@@ -39,9 +39,9 @@ layers:
   - T
   - N
   - S
-  - {t: ;, s: ':'}
+  - Alt+164
   - $$mdi:apple-keyboard-shift$$
-  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - Q
   - J
   - K
