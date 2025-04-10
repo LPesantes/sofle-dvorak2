@@ -39,7 +39,7 @@ layers:
   - T
   - N
   - S
-  - S
+  - '&uc(00F1)'
   - $$mdi:apple-keyboard-shift$$
   - {t: '''', s: '"'}
   - Q
