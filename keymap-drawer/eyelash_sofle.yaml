@@ -41,7 +41,7 @@ layers:
   - S
   - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-shift$$
-  - Apostrophe
+  - {t: ;, s: ':'}
   - Q
   - J
   - K
