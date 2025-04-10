@@ -14,7 +14,7 @@
 #include "zmk-helpers/helper.h"
 
 // Source desired key-position labels
-#include "zmk-helpers/key-labels/eyelash42.h"
+#include "zmk-helpers/key-labels/sofle.h"
 
 // Source unicode-chars for desired languages
 #include "zmk-helpers/unicode-chars/spanish.dtsi"
@@ -22,6 +22,8 @@
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
+
+ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
 
 &msc {
     acceleration-exponent = <1>;      // 0
@@ -52,7 +54,7 @@
             bindings = <
 &kp ESC     &kp N1          &kp N2        &kp N3     &kp N4         &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp SEMICOLON   &kp COMMA     &kp DOT    &kp P          &kp Y        &kp DOWN_ARROW   &kp F      &kp G      &kp C      &kp R            &kp L       &kp BSLH
-&kp CAPS    &kp A           &kp O         &kp E      &kp U          &kp I        &kp LEFT_ARROW   &kp D      &kp H      &kp T      &kp N            &kp S       &uc (001F)
+&kp CAPS    &kp A           &kp O         &kp E      &kp U          &kp I        &kp LEFT_ARROW   &kp D      &kp H      &kp T      &kp N            &kp S       &euro_sign
 &kp LSHFT   &kp SINGLE_QUOTE  &kp Q         &kp J      &kp K          &kp X        &kp RIGHT_ARROW  &kp B      &kp M      &kp W      &kp V            &kp Z       &kp ENTER
 &kp C_MUTE  &kp LCTRL       &kp LEFT_GUI  &mo 1      &kp LEFT_ALT   &kp SPACE    &kp ENTER        &kp ENTER  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
