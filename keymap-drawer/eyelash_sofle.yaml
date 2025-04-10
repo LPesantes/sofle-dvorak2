@@ -39,7 +39,7 @@ layers:
   - T
   - N
   - S
-  - '&uc(00F1)'
+  - ZMK UNICODE PAIR(n tilde, 0, 0, F, 1, 0, 0, D, 1)
   - $$mdi:apple-keyboard-shift$$
   - {t: '''', s: '"'}
   - Q
