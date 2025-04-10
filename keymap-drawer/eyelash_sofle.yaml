@@ -39,7 +39,7 @@ layers:
   - T
   - N
   - S
-  - '&uc (001F)'
+  - '&euro_sign'
   - $$mdi:apple-keyboard-shift$$
   - {t: '''', s: '"'}
   - Q
