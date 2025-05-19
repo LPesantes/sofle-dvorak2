@@ -91,7 +91,7 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
         layer_3 {
             bindings = <
 &trans  &kp N1  &kp N2  &none  &kp F1  &kp B    &kp N3  &kp F5  &kp F6  &trans  &trans  &trans  &trans
-&trans  &kp Q  &kp W  &kp E  &R  &kp H   &kp N4  &kp T  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Q  &kp W  &kp E  &kp R  &kp H   &kp N4  &kp T  &trans  &trans  &trans  &trans  &trans
 &trans  &kp A  &kp S  &kp D  &kp F  &kp G    &kp N5  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &none  &trans  &kp V  &none  &none    &kp N6  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp Z  &kp X  &kp C  &kp LCTRL  &kp SPACE    &kp N7  &kp ENTER  &trans  &trans  &trans  &to 0
