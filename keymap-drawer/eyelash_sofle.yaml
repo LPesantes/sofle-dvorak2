@@ -213,7 +213,7 @@ layers:
   - Q
   - W
   - E
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&R'
   - H
   - {t: '4', s: $}
   - T
