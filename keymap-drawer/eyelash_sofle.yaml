@@ -315,9 +315,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Z
-  - X
+  - $$mdi:apple-keyboard-command$$
   - C
-  - RCLK
+  - {t: '3', s: '#'}
   - $$mdi:keyboard-space$$
   - {t: '7', s: '&'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
