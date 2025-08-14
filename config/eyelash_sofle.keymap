@@ -94,12 +94,23 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
 &trans  &kp Q  &kp W  &kp E  &kp R  &kp H   &kp N4  &kp T  &trans  &trans  &trans  &trans  &trans
 &trans  &kp A  &kp S  &kp D  &kp F  &kp G    &kp N5  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &none  &trans  &kp V  &none  &none    &kp N6  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Z  &kp X  &kp C  &kp LCTRL  &kp SPACE    &kp N7  &kp ENTER  &trans  &trans  &trans  &to 0
+&trans  &kp Z  &kp LEFT_GUI  &kp C  &kp LCTRL  &kp SPACE    &kp N7  &kp ENTER  &trans  &trans  &trans  &to 4
             >;
             display-name = "Marvel R";
         };
 
         layer_4 {
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N3  &kp F5  &kp F6  &trans  &trans  &trans  &trans
+&trans  &kp Q  &kp W  &kp N2  &kp N4  &kp T        &kp N4  &kp T  &trans  &trans  &trans  &trans  &trans
+&none  &kp A  &kp S  &kp D  &kp F  &kp G           &kp N5  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N1  &none  &none  &kp none  &kp E  &kp C       &kp N6  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp Z  &kp X  &kp C  &kp RCLK  &kp SPACE    &kp N7  &kp ENTER  &trans  &trans  &trans  &to 0
+            >;
+            display-name = "Diablo";
+        };
+
+        layer_5 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -108,5 +119,7 @@ ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        
     };
 };
